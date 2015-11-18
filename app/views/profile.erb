@@ -1,0 +1,22 @@
+<!-- Form to upload pictures -->
+<div class="row">
+	<div class="col-sm-6 col-sm-offset-3">
+		<div class="upload-form">
+			<h3>You can upload things here!</h3>
+			<form method="post" enctype="multipart/form-data" action="upload">
+				<div class="form-group">
+					<label for="label">Label</label>
+					<input class="form-control" type="text" name="label"></input>
+				</div>
+				<div class="form-group">
+					<label for="description">Description</label>
+					<textarea class="form-control" type="file" rows="5" name="description"></textarea>
+				</div>
+				<div class="form-group">
+					<input class="form-control" type="file" name="photo[photo]"></input>
+				</div>
+				<input class="form-control btn btn-info" type="submit" value="Upload!"></input>
+			</form>
+		</div>
+	</div>
+</div>
